@@ -1850,30 +1850,6 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNVectorIcons (10.2.0):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.11.18.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-hermes
-    - React-ImageManager
-    - React-jsi
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-renderercss
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
   - SDWebImage (5.20.0):
     - SDWebImage/Core (= 5.20.0)
   - SDWebImage/Core (5.20.0)
@@ -1962,7 +1938,6 @@ DEPENDENCIES:
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNFastImage (from `../node_modules/@d11/react-native-fast-image`)"
   - RNScreens (from `../node_modules/react-native-screens`)
-  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -2123,8 +2098,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@d11/react-native-fast-image"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNVectorIcons:
-    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -2205,7 +2178,6 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: c1bbcf629d7206d1e19310827848b98d68a4cbaf
   RNFastImage: d061022ac8bded2d342c2ad066cab88f5b18234a
   RNScreens: c5c07a86e4088ce92f0d3854082250dfa9c61f75
-  RNVectorIcons: 0d358eb5b59aa90c8c148e745edd3161d49eb6c5
   SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
   SDWebImageAVIFCoder: 00310d246aab3232ce77f1d8f0076f8c4b021d90
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380

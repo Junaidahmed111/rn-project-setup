@@ -9,6 +9,7 @@ import {
   Image,
 } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import {fontFamilies} from '../../constants/fonts';
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
         {/* Button Section */}
         <TouchableOpacity style={styles.button} onPress={() => {}}>
           <Text style={styles.buttonText}>Click Me!</Text>
-          <AntDesign name="mail" size={24} color="black" />
+          <AntDesign name="rightcircle" size={24} color="black" />
         </TouchableOpacity>
 
         {/* List Items */}
@@ -86,11 +87,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginBottom: 8,
     color: '#333',
+    fontFamily: fontFamilies.MONTSERRAT.bold,
   },
   cardText: {
     fontSize: 14,
     color: '#666',
     lineHeight: 20,
+    fontFamily: fontFamilies.MONTSERRAT.thin,
   },
   button: {
     backgroundColor: '#007AFF',
@@ -100,9 +103,9 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   buttonText: {
-    color: 'white',
+    // color: 'white',
     fontSize: 16,
-    fontWeight: '600',
+    fontFamily: fontFamilies.MONTSERRAT.medium,
   },
   listItem: {
     backgroundColor: 'white',
