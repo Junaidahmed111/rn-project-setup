@@ -8,6 +8,7 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         {/* Button Section */}
         <TouchableOpacity style={styles.button} onPress={() => {}}>
           <Text style={styles.buttonText}>Click Me!</Text>
+          <AntDesign name="mail" size={24} color="black" />
         </TouchableOpacity>
 
         {/* List Items */}
