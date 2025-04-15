@@ -16,7 +16,7 @@ const RootNavigation: React.FC = () => {
       style={{
         flex: 1,
         paddingTop: insets.top,
-        backgroundColor: 'green',
+        // backgroundColor: 'green',
       }}>
       <StatusBar
         barStyle="light-content"
