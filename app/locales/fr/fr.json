@@ -1,0 +1,23 @@
+{
+  "home": {
+    "welcome": "Bon Retour 👋",
+    "darkMode": "Mode Sombre",
+    "stats": {
+      "photos": "Photos",
+      "likes": "J'aime",
+      "photoCount": "24",
+      "likeCount": "156"
+    },
+    "activity": {
+      "title": "Activité Récente",
+      "description": "Partagez vos moments avec le monde ! Téléchargez une nouvelle photo dans votre collection.",
+      "uploadPhoto": "Télécharger une Photo"
+    },
+    "imageModal": {
+      "title": "Ajouter une Photo",
+      "takePhoto": "Prendre une Photo",
+      "chooseFromGallery": "Choisir dans la Galerie"
+    },
+    "selectedPhoto": "Photo Sélectionnée"
+  }
+}

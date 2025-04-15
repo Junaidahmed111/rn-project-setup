@@ -1,0 +1,23 @@
+{
+  "home": {
+    "welcome": "Welcome Back 👋",
+    "darkMode": "Dark Mode",
+    "stats": {
+      "photos": "Photos",
+      "likes": "Likes",
+      "photoCount": "24",
+      "likeCount": "156"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "description": "Share your moments with the world! Upload a new photo to your collection.",
+      "uploadPhoto": "Upload Photo"
+    },
+    "imageModal": {
+      "title": "Add Photo",
+      "takePhoto": "Take Photo",
+      "chooseFromGallery": "Choose from Gallery"
+    },
+    "selectedPhoto": "Selected Photo"
+  }
+}

@@ -11,6 +11,8 @@ import {Provider, useSelector} from 'react-redux';
 import {PaperProvider} from 'react-native-paper';
 import {RootState} from './store/slice';
 import {darkTheme, lightTheme} from './constants/theme';
+import i18n from './locales/i18n';
+import {I18nextProvider} from 'react-i18next';
 
 const RootNavigation: React.FC = () => {
   const insets = useSafeAreaInsets();
@@ -39,7 +41,9 @@ const EntryPoint: React.FC = () => {
     <SafeAreaProvider>
       <Provider store={store}>
         <PersistGate persistor={persistor} loading={null}>
-          <RootNavigation />
+          <I18nextProvider i18n={i18n}>
+            <RootNavigation />
+          </I18nextProvider>
         </PersistGate>
       </Provider>
     </SafeAreaProvider>
