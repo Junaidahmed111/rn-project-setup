@@ -7,24 +7,30 @@ import {
 } from 'react-native-safe-area-context';
 import {store, persistor} from './store';
 import {PersistGate} from 'redux-persist/integration/react';
-import {Provider} from 'react-redux';
+import {Provider, useSelector} from 'react-redux';
+import {PaperProvider} from 'react-native-paper';
+import {RootState} from './store/slice';
+import {darkTheme, lightTheme} from './constants/theme';
 
 const RootNavigation: React.FC = () => {
   const insets = useSafeAreaInsets();
+  const isDark = useSelector((state: RootState) => state.theme.isDark);
   return (
-    <View
-      style={{
-        flex: 1,
-        paddingTop: insets.top,
-        // backgroundColor: 'green',
-      }}>
-      <StatusBar
-        barStyle="light-content"
-        translucent={true}
-        backgroundColor={'transparent'}
-      />
-      <NavigationStack />
-    </View>
+    <PaperProvider theme={isDark ? darkTheme : lightTheme}>
+      <View
+        style={{
+          flex: 1,
+          paddingTop: insets.top,
+          // backgroundColor: 'green',
+        }}>
+        <StatusBar
+          barStyle="light-content"
+          translucent={true}
+          backgroundColor={'transparent'}
+        />
+        <NavigationStack />
+      </View>
+    </PaperProvider>
   );
 };
 
